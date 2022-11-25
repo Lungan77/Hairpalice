@@ -1,0 +1,378 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+}
+.Container{
+    width: 85%;
+    margin: auto;
+}
+.header{
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.header h1{
+    margin-left: 50px;
+    text-transform: uppercase;
+    color:cornsilk;
+    font-size: 2.5em;
+}
+nav{
+    margin: auto;
+    margin-right: 50px;
+    text-transform: uppercase;
+    display: block;
+}
+.header li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 5px;
+}
+.header li a{
+    text-decoration: none;
+}
+a{
+    color: white;
+}
+a:active{
+    color: red;
+}
+
+a:visited{
+    color:cornsilk;
+}
+a:hover{
+    color:chocolate;
+}
+.user{
+    margin-left: 60px;
+}
+
+.open{
+    display: none;
+    cursor: pointer;
+}
+
+#close {
+    display: none;
+    cursor: pointer;
+}
+
+@media(max-width: 1000px){
+    .header{
+        flex-direction: column;
+        background-size: cover;
+    }
+
+    nav{
+        margin: auto;
+        text-transform: uppercase;
+        display: none;
+    }
+
+    nav ul{
+        text-align: center;
+    }
+
+    .header li{
+        list-style: none;
+        display: list-item;
+        margin-right: 0px;
+        margin: 5px;
+        font-size: 1.5em;
+    }
+    .header li a{
+        text-decoration: none;
+    }
+    .user{
+        margin-left: 0px;
+    }
+    .open{
+        display: block;
+        font-size: 3em;
+        position: absolute;
+        right: 15px;
+        top: -30px;
+        text-align: center;
+        margin: 0px;
+    }
+}
+@media (max-width: 600px) {
+    .header h1{
+        font-size: 1.5em;
+        margin-left: 10px;
+    }
+    .open{
+        font-size: 1.5em;
+        top: -10px;
+    }
+}
+#middle-sec{
+    background-image: url('https://wallpapercave.com/wp/wp7712197.jpg');
+    height: 85vh;
+    background-size: cover;
+    margin-top: 100px;
+    width: 100%;
+    z-index: 1;
+}
+.acc{
+    padding: 50px;
+    margin: auto;
+    background: rgba(0,0,0, 0.7);
+    height: 75vh;
+    background-size: cover;
+    color: wheat;
+}
+.middle{
+    display: flex;
+    z-index: 10;
+    margin-top: 30px;
+}
+.sec-words{
+    width: 50%;
+    letter-spacing: 3px;
+}
+.sec-words h3{
+    font-size: 3em;
+}
+.sec-words p{
+    font-size: 1.3em;
+}
+.middle-images{
+    width: 50%;
+    margin-right: 100px;
+}
+.images-gr{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.images-gr img{
+    width: 300px;
+    border-radius: 50%;
+    height: 300px;
+}
+@media(max-width: 1100px){
+    .middle-images{
+        display: none;
+    }
+    .sec-words{
+        width: 75%;
+    }
+    
+}
+@media (max-width: 600px) {
+
+    #middle-sec{
+        margin-top: 50px;
+        background-image: url('https://mobimg.b-cdn.net/v3/fetch/4c/4c34583ad7b073c44838e4c7ccf47116.jpeg?h=600&r=0.5');
+    }
+    .middle{
+        margin-top: 5px;
+    }
+    .sec-words{
+        width:90%;
+        margin-right: 10px;
+    }
+    .sec-words h3{
+        font-size: 1.6;
+    }
+    .sec-words p{
+        font-size: 1em;
+    }
+}
+#services{
+    background-color:antiquewhite;
+    padding: 10px;
+}
+.sh-area{
+    display: flex;
+}
+
+.service-img{
+    width: 50%;
+    padding: 10px;
+    margin-top: 35px;
+}
+.service-img img{
+    width: 80%;
+}
+
+.service-p{
+    width: 50%;
+    padding: 10px;
+}
+.service-p h4{
+    font-size: 2.5em;
+    text-decoration: underline;
+    margin: 2px;
+}
+
+.service-p p{
+    font-size: 1.1em;
+}
+.service-par p{
+    font-size: 1.2em;
+}
+@media (max-width: 800px) {
+    .sh-area{
+        flex-direction: column;
+        margin: auto;
+    }
+    .service-img{
+        width: 100%;
+    }
+    .service-img img{
+        width: 100%;
+    }
+    .service-p{
+        width: 90%;
+    }
+}
+
+.blogs{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.blogh4{
+    margin: auto;
+    text-align: center;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    margin-bottom: -15px;
+}
+
+.blog{
+    background-color: darkgrey;
+    width: 30%;
+    margin: auto;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.blog img{
+    width:90%;
+}
+@media (max-width: 850px) {
+    .blogs{
+        flex-direction: column;
+    }
+    .blog{
+        width: 85% !important;
+    }
+}
+#reviews{
+    background-color:antiquewhite;
+    padding: 5px;
+}
+
+.Reviews{
+    display: flex;
+    margin: auto;
+    align-items: stretch;
+}
+
+.review{
+    width: 30%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.review img{
+    width: 80%;
+    border-radius: 100%;
+}
+
+.review h6{
+    font-size: 1.2em;
+    margin: 5px;
+    text-decoration: underline;
+}
+
+.review p{
+    width: 75%;
+}
+.stars{
+    width: 20% !important;
+    border-radius: 0px !important;
+}
+
+@media (max-width: 850px) {
+    .Reviews{
+        flex-direction: column;
+        margin: auto;
+    }
+    .review{
+        width: 80%;
+    }
+}
+#request_inf{
+    background-color: rgba(0,0,0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form{
+    margin: auto;
+    width: 60%;
+    color: antiquewhite;
+    background-color:  rgba(0,0,0, 0.4);
+}
+
+.form form{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+.form-gr{
+    margin: auto;
+}
+.form label{
+    font-size: 1.3em;
+}
+.form input{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 95%;
+    border-radius: 5px;
+    border-color: antiquewhite;
+    padding: 5px;
+}
+.form textarea{
+    margin-top: 15px;
+    width: 94%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.form button{
+    margin-top: 15px;
+    width: 97%;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: antiquewhite;
+}
+#footer{
+    background-color: rgba(0,0,0, 0.8);
+    color: antiquewhite;
+    padding: 5px;
+}
+.contact{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.foot{
+    margin-top: -10px;
+    background-color: rgba(0,0,0, 0.9);
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}

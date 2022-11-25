@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/b340695470.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div>
+        <header id="header"  class="header">
+            <div class="Container header">
+                <div>
+                    <h1>Hairpalace</h1>
+                </div>
+                <nav id="nav">
+                    <ul>
+                        <li><a href="./Index.html">Home</a></li>
+                        <li><a href="./Services.html">Services</a></li>
+                        <li><a href="./buy.html">Shop</a></li>
+                        <li><a href="./policy.html">Privacy</a></li>
+                        <li><i class="fas fa-cart-plus" style="font-size: 1.6em;"></i></li>
+                        <li class="user"><a href="/Front-end/register.html" style="color:burlywood;"><i class='fas fa-user-plus'> </i> register</a></li>
+                        <li><a href="/Front-end/login.html" style="color:burlywood;"><i class="fa fa-fw fa-user"></i> Login</a></li>
+                    </ul>
+                </nav>
+                <div onclick="show()" class="open" id="open">
+                    <p>&#9776;</p>
+                </div>
+                <div onclick="closer()" class="open" id="close">
+                    <p>&#128473;</p>
+                </div>
+            </div>
+        </header>
+        <section id="middle-sec">
+            <div class="acc">
+                <div class="Container">
+                    <div class="middle">
+                        <div class="sec-words">
+                            <div class="sec-word">
+                                <h3>
+                                    Find the best service
+                                </h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, commodi nulla esse officia 
+                                    eligendi voluptates fugiat, 
+                                 cum iusto reprehenderit nobis quos sint
+                                  quis voluptate sed explicabo molestiae incidunt sit praesentium?
+                                </p>
+                            </div>
+                        </div>
+                        <div class="middle-images">
+                            <div class="images-gr">
+                                <img src="https://wallpapercave.com/wp/wp7712546.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services">
+            <div class="Container sh-area">
+                <div class="service-img">
+                    <img src="https://wallpapercave.com/dwp1x/wp2049398.jpg" alt="">
+                </div>
+                <div class="service-p">
+                    <h4>Our services</h4>
+                    <p>service 1</p>
+                    <hr/>
+                    <p>service 2</p>
+                    <hr/>
+                    <p>service 1</p>
+                    <hr/>
+                    <p>service 2</p>
+                    <hr/>
+                    <div class="service-par">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a
+                            deserunt ratione excepturi tempora molestias sapiente aspernatur
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="_blogs">
+            <div class="Container">
+                <div class="blogh4">
+                    <h4>Blogs</h4>
+                </div>
+                <hr/>
+                <div class="blogs" id="blogs">
+                    <div class="blog" id="blog" onmouseenter="blog1_enter()" onmouseleave="blog1_leave()">
+                        <div>
+                            <img src="https://wallpapercave.com/dwp1x/wp2049398.jpg" alt="">
+                        </div>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum deleniti quo tenetur quas aperiam dolores, 
+                                laboriosam perferendis doloremque quidem sit ipsam magnam. Modi officiis numquam earum enim amet cupiditate. Nobis.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog" id="blog" onmouseenter="blog2_enter()" onmouseleave="blog2_leave()">
+                        <div>
+                            <img src="https://wallpapercave.com/dwp1x/wp2049398.jpg" alt="">
+                        </div>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum deleniti quo tenetur quas aperiam dolores, 
+                                laboriosam perferendis doloremque quidem sit ipsam magnam. Modi officiis numquam earum enim amet cupiditate. Nobis.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog" id="blog" onmouseenter="blog3_enter()" onmouseleave="blog3_leave()">
+                        <div>
+                            <img src="https://wallpapercave.com/dwp1x/wp2049398.jpg" alt="">
+                        </div>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum deleniti quo tenetur quas aperiam dolores, 
+                                laboriosam perferendis doloremque quidem sit ipsam magnam. Modi officiis numquam earum enim amet cupiditate. Nobis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="reviews">
+            <div class="Container">
+                <div>
+                    <div class="blogh4" >
+                        <h4>reviews</h4>
+                    </div>
+                    <div class="Reviews">
+                        <div class="review">
+                            <img src="https://wallpapercave.com/dwp1x/wp2049398.jpg" alt="">
+                            <h6>Lungile Myeni</h6>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium qui, distinctio illum hic repudiandae est!</p>
+                            <img src="./images/5-stars.jpg" alt="" class="stars">
+                        </div>
+                        <div class="review">
+                            <img src="https://wallpapercave.com/dwp1x/wp2049398.jpg" alt="">
+                            <h6>Andiswa Shezi</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem eius deleniti quis repellendus sed quidem?</p>
+                            <img src="./images/5-stars.jpg" alt="" class="stars">
+                        </div>
+                        <div class="review">
+                            <img src="https://wallpapercave.com/dwp1x/wp2049398.jpg" alt="">
+                            <h6>Londie Shezi</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis repellendus odit sequi iusto sit error!</p>
+                            <img src="./images/5-stars.jpg" alt="" class="stars">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id= "request_inf">
+            <div class="Container form">
+                <div>
+                    <div class="blogh4">
+                        <h6>Request more information</h6>
+                        <hr/>
+                    </div>
+                    <form>
+                        <div class="form-gr">
+                            <label>Name</label>
+                            <br/>
+                            <input type="email" />
+                        </div>
+                        <div class="form-gr">
+                            <label for="">Message</label>
+                            <br/>
+                            <textarea name="" id="" cols="30" rows="10">Your request</textarea>
+                        </div>
+                        <div class="form-gr">
+                            <button type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer id="footer">
+            <div class="Container">
+                <div>
+                    <div class="blogh4">
+                        <h6>Our leaders Contacts</h6>
+                        <hr/>
+                    </div>
+                    <div class="contact">
+                        <p>Mrs Buthelezi</p>
+                        <p>082467728</p>
+                        <p>Mr Mzobe</p>
+                        <p>086 113 5982</p>
+                        <p>Miss Zwane</p>
+                        <p>082 115 6678</p>
+                    </div>
+                </div>
+                <div class="foot">
+                    <hr/>
+                    <p>Copy&rights protected@Hairpalace</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="/Front-end/style/index.js"></script>
+</body>
+</html>

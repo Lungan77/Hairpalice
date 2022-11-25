@@ -1,0 +1,20 @@
+.swiper{
+    width: 80%;
+    height: fit-content;
+    z-index: 0;
+}
+.swiper-slide img{
+    width: 100%;
+}
+
+.con{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 110px;
+    width: 70%;
+}
+.header-h3{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
